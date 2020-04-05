@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.auto{
+    margin: auto;
+}
+/*导航栏部分样式*/
+#nav{
+    height: 55px;
+    background-color: #2D2D2D;
+}
+.xiaoyu{
+    width: 220px;
+}
+.xiaoyu a{
+    color: white;
+    font-size: 55px;
+    font-family: 华文琥珀;
+}
+#nav .choose{
+    height: 60px;
+    width: 900px;
+}
+
+#nav .choose ul li{
+    float: left;
+    margin:12px 10px;
+}
+#nav .choose ul li a{
+    display: block;
+    width: 100px;
+    text-align: center;
+    color: #cccccc;
+    font-size: 25px;
+    font-family: 幼圆;
+    font-weight: bolder;
+}
+#nav .choose ul li a:hover{
+    color: white;
+}
+#nav .choose .btn{
+    height: 35px;
+    width: 50px;
+    background-color: #cccccc;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: 黑体;
+    outline: medium;
+    cursor: pointer;
+    transition: 0.1s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#nav .choose .btn:hover{
+    background-color: white;
+}
+#nav .choose .found_right{
+    width: 250px;
+    height: 35px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding-left: 5px;
+    background-color: #666666;
+    font-size: 19px;
+    border: none;
+    outline: medium;
+    font-family: "Helvetica Neue";
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+#nav .person{
+    height: 55px;
+    width: 260px;
+    margin-top: -60px;
+}
+#nav .person .like{
+    width: 85px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: white;
+    transition: 0.3s;
+}
+#nav .person .like:hover{
+    background-color: #fff;
+    color: black;
+}
+#nav .person ul{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+#nav .person ul li{
+    float: right;
+    font-size: 16px;
+    color: white;
+    margin-right: 5px;
+}
+#nav .person ul li a{
+    color: #aaa;
+    font-size: 16px;
+}
+#nav .person ul li a:hover{
+    color: white;
+}
