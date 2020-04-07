@@ -20,26 +20,6 @@ ul,ol{
 .auto{
     margin: auto;
 }
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
 /*导航栏部分样式*/
 #nav{
     height: 55px;
@@ -157,84 +137,44 @@ ul,ol{
     color: white;
     text-decoration: none;
 }
-/*banner图部分*/
-#banner{
-    width: 1150px;
-    height: 305px;
-    margin: auto;
-}
-.swiper-container{
-    width: 532px;
-    height: 300px;
-    float: left;
-    cursor: auto;
-}
-.swiper-container img{
-    height: 300px;
-}
-#banner .me{
-    height: 300px;
-    width: 580px;
-    float: right;
-    background-color: white;
-    border: 1px solid blue;
-}
-#banner .me h2{
-    padding-left: 10px;
-    color: #333;
+#puzi{
+    height: 4800px;
+    width: 1110px;
     background-color: #eee;
-}
-/*乐谱简介的样式*/
-#pu{
-    width: 1177px;
-    height: 970px;
-    margin: auto;
-    padding-top: 10px;
     text-align: center;
+    margin: 0px auto;
 }
-#pu .l_title{
-    text-align: left;
-    margin-left: 15px;
-    font-size: 22px;
-    color: #444;
-    margin-bottom: 5px;
+#puzi h1{
+    margin: 10px;
 }
-#pu .l_title span{
-    float: right;
-    margin-right: 15px;
-}
-#pu .little{
-    width: 170px;
-    height: 205px;
-    float: left;
-    margin: 7px 12px;
-    background-color: #fff;
-    transition: 0.2s linear all;
-}
-#pu .little:hover{
-    -webkit-box-shadow:  0px 5px 30px #ccc;
-    -moz-box-shadow:  0px 5px 30px #ccc;
-    box-shadow:  0px 5px 30px #ccc;
-    transform: translateY(-3px);
-}
-#pu .little img{
-    width: 170px;
-    margin-bottom: 5px;
-}
-#pu .little p{
-    margin-left: 5px;
-    width: 165px;
-    text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-#pu a{
-    font-size: 15px;
-    color: #555;
-}
-/*页脚部分样式*/
+
 #footer{
-    height: 150px;
+    height: 200px;
     background-color: white;
+}
+#goTop{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    top: 650px;
+    right: 180px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+}
+#goTop a{
+    font-size: 14px;
+    color: #757575;
+
+}
+#goTop a:hover{
+    color: #ff6700;
+}
+#goTop img{
+    width: 25px;
+    margin: 12px auto 1px;
 }
