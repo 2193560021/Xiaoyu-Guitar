@@ -164,25 +164,29 @@ ul,ol{
     margin: auto;
 }
 .swiper-container{
-    width: 532px;
+    width: 555px;
     height: 300px;
     float: left;
     cursor: auto;
 }
 .swiper-container img{
-    height: 300px;
+    width: 555px;
 }
 #banner .me{
     height: 300px;
-    width: 580px;
+    width: 565px;
     float: right;
     background-color: white;
     border: 1px solid blue;
 }
-#banner .me h2{
+#banner .me h1{
     padding-left: 10px;
     color: #333;
     background-color: #eee;
+}
+#banner .me p{
+    margin: 5px 2px;
+    font-size: 24px;
 }
 /*乐谱简介的样式*/
 #pu{

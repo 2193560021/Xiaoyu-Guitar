@@ -137,21 +137,23 @@ ul,ol{
     color: white;
     text-decoration: none;
 }
-#puzi{
-    height: 5000px;
+/*内容样式*/
+#content{
     width: 1130px;
-    background-color: #eee;
+    height: 4000px;
+    background-color: #fff;
+    margin: auto;
+}
+#content .gt{
+    width: 1130px;
+    height: 600px;
     text-align: center;
-    margin: 0px auto;
 }
-#puzi h1{
-    margin: 10px;
+#content .gt img{
+    width: 1030px;
+    margin: 10px auto;
 }
-
-#footer{
-    height: 200px;
-    background-color: white;
-}
+/*回顶样式*/
 #goTop{
     width: 75px;
     height: 75px;
