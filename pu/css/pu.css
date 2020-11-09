@@ -34,9 +34,6 @@ ul,ol{
     font-size: 55px;
     font-family: 华文琥珀;
 }
-.xiaoyu a:hover{
-    text-decoration: underline;
-}
 #nav .choose{
     height: 60px;
     width: 1000px;
